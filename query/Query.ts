@@ -1,12 +1,6 @@
-export interface IQuery<T> {
-  page?: number;
-  pageSize?: number;
-  orderByField?: string[];
-  query?: T | any;
-  searchs?: ISearch[];
+export interface IQuery {
+  query?: | any;
+  search ?: string;
+  searchFields ?: string[]
 }
 
-export interface ISearch {
-  content: string;
-  fields: string[];
-}

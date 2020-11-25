@@ -4,5 +4,4 @@ export interface Paging<T> {
   page: number;
   pageSize: number;
   totalPages: number;
-  search?: string;
 }
