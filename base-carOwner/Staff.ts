@@ -1,17 +1,17 @@
 import { BaseModel } from "../query/BaseModel";
 import { Account } from "./Account";
-import { PostionStaff } from "./PostionStaff";
+import { PositionStaff } from "./PositionStaff";
 export interface Staff extends BaseModel {
   name: string;
   identityCard?: string;
   birthAt?: Date;
   address?: string;
-  positionId : string;
+  positionId: string;
   avt?: string;
-  phoneNumer: string;
+  phoneNumber: string;
   sex?: string;
-  metaMapping ?: {
+  metaMapping?: {
     account?: Account;
-    position?: PostionStaff;
-  }
+    position?: PositionStaff;
+  };
 }
