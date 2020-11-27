@@ -6,6 +6,7 @@ export class BaseModel {
     public updateAt ?: Date;
     public status ?: Status;
     public adminId ?: string;
+    public metaMapping?: any
 }
 
 export enum Status {

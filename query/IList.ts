@@ -5,5 +5,6 @@ export interface IList extends IQuery{
     sort ?: string[],
     pageSize ?: number, 
     page : number,
+    populate ?:any // TODO : change it
     
 }
