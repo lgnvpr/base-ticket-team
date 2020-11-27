@@ -10,6 +10,6 @@ export class BaseModel {
 }
 
 export enum Status {
-    actived = "actived",
+    active = "active",
     deleted = "deleted",
 }
