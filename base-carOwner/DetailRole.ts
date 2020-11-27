@@ -1,6 +1,6 @@
 import { BaseModel } from "../query/BaseModel";
 
-export class DetailRole extends BaseModel{
-    roleId : string;
-    keyFeature  : string;
+export interface DetailRole extends BaseModel{
+    roleId ?: string;
+    keyFeature ?: string;
 }

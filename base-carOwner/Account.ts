@@ -3,10 +3,10 @@ import { Staff } from "./Staff";
 
 export interface Account extends BaseModel {
   username: string;
-  password: string;
+  password?: string;
   staffId: string;
   role?: string;
-  metaMapping ?: { 
+  metaMapping?: {
     staff?: Staff;
-  }
+  };
 }
