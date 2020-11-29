@@ -1,6 +1,6 @@
 import { BaseModel } from "../query/BaseModel";
 import { Staff } from "./Staff";
-import { Trip } from "./Trip";
+// import { Trip } from "./Trip";
 import { ChairCar } from "./ChairCar";
 export interface Ticket extends BaseModel {
   chairCarId?: string;
@@ -11,9 +11,9 @@ export interface Ticket extends BaseModel {
   localPickup?: string;
   localDrop?: string;
   metaMapping: {
-    trip?: Trip;
+    trip?: any;
     chairCar?: ChairCar;
-    staff?: string;
+    staff?: Staff;
     customer?: Staff;
   };
 }
