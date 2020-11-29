@@ -7,5 +7,6 @@ export const enum serviceName {
     route = "route",
     ticket = "ticket",
     trip = "trip",
-    account = "account"
+    account = "account",
+    test = "REST a"
 } 
