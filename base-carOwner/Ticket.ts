@@ -2,6 +2,7 @@ import { BaseModel } from "../query/BaseModel";
 import { Staff } from "./Staff";
 // import { Trip } from "./Trip";
 import { ChairCar } from "./ChairCar";
+import { Customer } from "./Customer";
 export interface Ticket extends BaseModel {
   chairCarId?: string;
   customerId?: string;
@@ -14,7 +15,7 @@ export interface Ticket extends BaseModel {
     trip?: any;
     chairCar?: ChairCar;
     staff?: Staff;
-    customer?: Staff;
+    customer?: Customer;
   };
 }
 
