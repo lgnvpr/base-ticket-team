@@ -3,9 +3,9 @@ import { BaseModel } from "../query/BaseModel";
 import { } from "joi"
 
 export class Car extends BaseModel {
-  name: string;
-  licensePlates: string;
-  entryAt: Date;
+  name?: string;
+  licensePlates?: string;
+  entryAt?: Date;
   origin?: string;
   statusCar?: string;
   description?: string;

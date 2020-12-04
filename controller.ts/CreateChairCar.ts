@@ -1,4 +1,4 @@
-export class createChairCar {
+export class CreateChairCar {
 	carId?: string;
 	floor?: number;
 	row?: number;

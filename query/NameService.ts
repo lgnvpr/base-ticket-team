@@ -1,4 +1,4 @@
-export const enum serviceName {
+export enum serviceName {
     staff = "staff",
     position = "position_staff",
     car = "car",
