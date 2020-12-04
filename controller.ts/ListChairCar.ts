@@ -1,6 +1,6 @@
-import { ChairCar } from "@Core/base-carOwner/ChairCar";
+import { ChairCar } from "../base-carOwner/ChairCar";
 
 export class ListChairCar{
-    dataListChar : Array<Array<Array<ChairCar>>>;
+    dataListChar ?: Array<Array<Array<ChairCar>>>;
 }
 
