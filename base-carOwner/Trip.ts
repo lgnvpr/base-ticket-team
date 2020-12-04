@@ -1,9 +1,17 @@
 import { BaseModel } from "../query/BaseModel";
+import { Car } from "./Car";
+import { Route } from "./Route";
+import { Staff } from "./Staff";
 
 export interface Trip extends BaseModel{
     price?: number,
     driveId?: string,
-    RouteId?: string,
+    routeId?: string,
     timeStart?: Date,
-    CarId?: string,
+    carId?: string,
+    metaMapping?:{
+        drive: Staff,
+        route: Route,
+        car : Car,
+    }
 }
