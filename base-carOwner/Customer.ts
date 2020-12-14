@@ -1,4 +1,5 @@
 import { BaseModel } from "../query/BaseModel";
+import { Sex } from "./Sex";
 
 export class  Customer extends BaseModel {
   name?: string;
@@ -12,9 +13,4 @@ export class  Customer extends BaseModel {
   description?: string;
 }
 
-export enum Sex {
-  male = "male",
-  female = "female",
-  gay = "gay",
-  leg = "leg",
-}
+
