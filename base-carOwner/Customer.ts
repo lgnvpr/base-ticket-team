@@ -1,9 +1,9 @@
 import { BaseModel } from "../query/BaseModel";
 
-export interface Customer extends BaseModel {
-  name: string;
+export class  Customer extends BaseModel {
+  name?: string;
   CMND?: string;
-  phoneNumber: string;
+  phoneNumber?: string;
   email?: string;
   birthAt?: Date;
   sex?: Sex;
