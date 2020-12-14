@@ -3,7 +3,7 @@ import { isBlank } from "../../vince/VinceString";
 import { BaseModel } from "../query/BaseModel";
 import { Account } from "./Account";
 import { PositionStaff } from "./PositionStaff";
-@data
+
 export class Staff extends BaseModel {
 	name?: string = __(isBlank());
 	identityCard?: string = __(isBlank());
@@ -11,7 +11,7 @@ export class Staff extends BaseModel {
 	address?: string = __(isBlank());
 	positionId?: string = __(isuuid());
 	avt?: string ;
-	phoneNumber: string = __(isBlank().and(e164PhoneNumber("vn")));
+	phoneNumber?: string = __(isBlank().and(e164PhoneNumber("vn")));
 	sex?: string = __(defaultValue(()=> "Nam", isstring()));
 	metaMapping?: {
 		account?: Account;
