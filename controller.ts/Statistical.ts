@@ -1,12 +1,10 @@
-export interface ChartDay{
+
+export class IntervalTicketChart{
     day?: Date;
     data?: number;
 }
 
-
-export class Statistical{
-    charTicket?: ChartDay[];
-    charRevenue?: ChartDay[];
+export class Summary{
     totalCustomer?: number;
     totalRevenue?: number;
     totalTrip?: number;
