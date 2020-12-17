@@ -11,6 +11,7 @@ export interface Ticket extends BaseModel {
   statusTicket?: statusTicket;
   localPickup?: string;
   localDrop?: string;
+  description?: string;
   metaMapping: {
     trip?: Trip;
     chairCar?: ChairCar;
