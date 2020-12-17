@@ -8,5 +8,5 @@ export enum serviceName {
     ticket = "ticket",
     trip = "trip",
     account = "account",
-    test = "REST a"
+    statistics = "statistics"
 } 
