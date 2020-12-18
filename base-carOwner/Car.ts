@@ -11,8 +11,9 @@ export class Car extends BaseModel {
   origin?: string = __(isBlank().and(isLengthString(2, 20)));
   statusCar?: string=  __(enumvalue(statusCar));
   description?: string = __(opt(isstring()));
+  totalChair ?: number;
   metaMapping ?: { 
-    totalChair ?: number;
+    
   } = __(opt(isany()))
 }
 

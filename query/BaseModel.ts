@@ -1,7 +1,7 @@
 
 
 export class BaseModel {
-	public _id?: string 
+	public id?: string 
 	public createBy?: string|null 
 	public createAt?: Date|null 
 	public updateBy?: string|null
