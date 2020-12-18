@@ -9,9 +9,7 @@ export interface Trip extends BaseModel{
     routeId?: string,
     timeStart?: Date,
     carId?: string,
-    metaMapping?:{
-        drive: Staff,
-        route: Route,
-        car : Car,
-    }
+    drive: Staff,
+    route: Route,
+    car : Car,
 }

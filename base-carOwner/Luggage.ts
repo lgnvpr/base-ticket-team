@@ -5,8 +5,5 @@ import { Customer } from "./Customer";
 export interface Luggage {
   customerId: string;
   tripId: string;
-  metaMapping?: {
-    customer: Customer;
-    // trip: Trip;
-  };
+  customer: Customer;
 }

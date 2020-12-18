@@ -12,12 +12,10 @@ export interface Ticket extends BaseModel {
   localPickup?: string;
   localDrop?: string;
   description?: string;
-  metaMapping: {
-    trip?: Trip;
-    chairCar?: ChairCar;
-    staff?: Staff;
-    customer?: Customer;
-  };
+  chair_car?: ChairCar;
+  trip?: Trip;
+  staff?: Staff;
+  customer?: Customer;
 }
 
 export enum statusTicket {

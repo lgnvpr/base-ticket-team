@@ -6,6 +6,5 @@ export class PositionStaff extends BaseModel {
 	name?: string 
 	description?: string 
 	keyDefault?: PositionDefault 
-	metaMapping?: {} 
 }
 
