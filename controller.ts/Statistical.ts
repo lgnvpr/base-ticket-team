@@ -10,3 +10,9 @@ export class Summary{
     totalTrip?: number;
     totalTicket ?: number;
 }
+
+export class PropsSummary{
+    from : Date
+    to : Date
+    interval: "day"|"month"
+}
