@@ -1,4 +1,5 @@
 export enum PositionDefault {
 	drive = "DRIVER",
-	staffSale = "STAFF-SALE",
+	staffSale = "STAFF_SALE",
+	boss = "BOSS"
 }

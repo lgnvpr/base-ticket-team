@@ -3,7 +3,7 @@ import { BaseModel } from "../query/BaseModel";
 import { Account } from "./Account";
 import { PositionStaff } from "./PositionStaff";
 
-export class Staff extends BaseModel {
+export interface Staff extends BaseModel {
 	name?: string ;
 	identityCard?: string ;
 	birthAt?: Date;

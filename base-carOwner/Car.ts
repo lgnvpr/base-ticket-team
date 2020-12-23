@@ -3,7 +3,7 @@ import { BaseModel } from "../query/BaseModel";
 import { } from "joi"
 import { __,isoDateOnly, enumvalue, opt, isstring, isany } from '@deckchair-technicians/vice';
 
-export class Car extends BaseModel {
+export interface Car extends BaseModel {
   name?: string 
   licensePlates?: string 
   entryAt?: Date
