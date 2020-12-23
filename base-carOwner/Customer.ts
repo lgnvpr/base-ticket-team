@@ -1,7 +1,7 @@
 import { BaseModel } from "../query/BaseModel";
 import { Sex } from "./Sex";
 
-export class  Customer extends BaseModel {
+export interface  Customer extends BaseModel {
   name?: string;
   CMND?: string;
   phoneNumber?: string;
