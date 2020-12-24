@@ -13,5 +13,5 @@ export interface Staff extends BaseModel {
 	phoneNumber?: string;
 	sex?: string;
 	account?: Account;
-	position?: PositionStaff;
+	position_staff?: PositionStaff;
 }
