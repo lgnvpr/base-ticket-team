@@ -1,7 +1,7 @@
 import { Trip } from "../base-carOwner/Trip";
 import { IList } from "../query/IList";
 
-export interface IGetByDate extends IList{
+export interface ListWithTripSale extends IList{
     from : Date;
     to : Date;
 }
