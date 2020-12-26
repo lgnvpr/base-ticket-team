@@ -8,7 +8,7 @@ export interface Ticket extends BaseModel {
   customerId?: string;
   staffId?: string;
   tripId?: string;
-  statusTicket?: statusTicket;
+  statusTicket?: StatusTicket;
   localPickup?: string;
   localDrop?: string;
   description?: string;
@@ -18,7 +18,9 @@ export interface Ticket extends BaseModel {
   customer?: Customer;
 }
 
-export enum statusTicket {
+export enum StatusTicket {
   payed = "payed",
   unpaid = "unpaid",
+  welcomed = "welcomed",
+  cancel = "cancel"
 }
