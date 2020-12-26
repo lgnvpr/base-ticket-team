@@ -5,7 +5,7 @@ import { Staff } from "./Staff";
 
 export interface Trip extends BaseModel{
     price?: number,
-    driveId?: string,
+    driverId?: string,
     routeId?: string,
     timeStart?: Date,
     carId?: string,
