@@ -6,7 +6,5 @@ export interface Account extends BaseModel {
   password?: string;
   staffId: string;
   role?: string;
-  metaMapping?: {
-    staff?: Staff;
-  };
+  staff?: Staff;
 }

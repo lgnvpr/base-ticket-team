@@ -19,6 +19,7 @@ export interface Ticket extends BaseModel {
 }
 
 export enum StatusTicket {
+  order = "order",
   payed = "payed",
   unpaid = "unpaid",
   welcomed = "welcomed",
